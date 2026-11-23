@@ -29,7 +29,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 # TODO: RepoMigration
 # Replace the legacy URL with SecInfraDK/InfraModules.
 # Target file: Modules/New-Unattend/Public/New-Unattend.ps1
-$Script = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/SysAdminDk/InfraAsCode/refs/heads/main/Modules/New-Unattend.ps1" -ErrorAction Stop -UseBasicParsing
+$Script = Invoke-RestMethod -Uri "https://raw.githubusercontent.com/SecInfraDk/InfraModules/refs/heads/main/Modules/New-Unattend/Public/New-Unattend.ps1" -ErrorAction Stop -UseBasicParsing
 $script.TrimStart([char]0xFEFF) | Invoke-Expression
 
 
