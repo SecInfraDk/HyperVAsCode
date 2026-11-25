@@ -1,17 +1,29 @@
 # Documentation
+1. Create HPV Deployment server.
 
-## Purpose
+2. Create HPV ISO install media.
 
-Documents Hyper-V provisioning and operations.
 
-## Example contents
+## Fabric Domain
+3. Install Fabric HyperV node 1
 
-Template prerequisites, command usage, configuration formats, and platform-specific troubleshooting.
+4. Create Facric Domain controller ADDS-01
 
-## Scope
+5. Install Fabric HyperV node 1, Join Domain
 
-Customer and lab topology documentation stays with the deployment.
+6. Create Facric Domain controller ADDS-02
 
-## Dependencies
+7. Join Domain, Fabric HyperV node 1
 
-Guides follow the applicable script versions and platform API or tooling.
+8. xxx
+
+9. Install HyperV Main Cluster node n+1
+
+
+
+## Prod Domain
+1. Create Prod Domain controller ADDS-01
+
+2. Create Prod Domain controller ADDS-02
+
+3. xxx
